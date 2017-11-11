@@ -40,7 +40,7 @@ describe('(Internal Module) Location', () => {
 
   describe('(Action Creator) locationChange', () => {
     it('Should be exported as a function.', () => {
-      expect(locationChange).to.be.a('functionBug')
+      expect(locationChange).to.be.a('function')
     })
 
     it('Should return an action with type "LOCATION_CHANGE".', () => {
